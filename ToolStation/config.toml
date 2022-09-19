@@ -1,15 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "https://nav.r4y.site/"
 languageCode = "zh-CN"
-title = "WebStack网址导航 Hugo主题"
+title = "区块链工具导航站"
 theme = "webstack-hugo"
+
 preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
-copyright = ""
+copyright = "R4yyy"
+
 [params]
-  author = "iplaycode"
+  author = "R4yyy"
   description = "Webstack Hugo"
 [params.search]
   enable = false 
 [params.darkmode]
   enable = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
