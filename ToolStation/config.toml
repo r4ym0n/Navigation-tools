@@ -1,6 +1,6 @@
 baseURL = "https://nav.r4y.site/"
 languageCode = "zh-CN"
-title = "区块链工具导航站"
+title = "CryptoNav导航站"
 theme = "webstack-hugo"
 
 preserveTaxonomyNames = true
