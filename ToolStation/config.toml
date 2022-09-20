@@ -8,6 +8,7 @@ disablePathToLower = true
 hasCJKLanguage = true
 copyright = "R4yyy"
 
+
 [params]
   author = "R4yyy"
   description = "Webstack Hugo"

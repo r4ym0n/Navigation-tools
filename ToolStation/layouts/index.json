@@ -1,11 +1,17 @@
 {{- $.Scratch.Add "pagesIndex" slice -}}
-{{- range $index, $page := .Site.Pages -}}
-  {{- if eq $page.Type "post" -}}
-    {{- if gt (len $page.Content) 0 -}}
-      {{- $pageData := (dict "title" $page.Title "href" $page.Permalink "categories" (delimit $page.Params.categories " ; ") "content" $page.Plain) -}}
+{{ range $index, $item := .Site.Data.webstack }}
+  {{ if $item.list }}
+    {{ range $index, $ctx := $item.list }}    
+      {{ range $index, $i := $ctx.links }}    
+        {{- $pageData := (dict "title" $i.title "href" $i.url "description"  $i.description  "content" $i.description) -}}
+        {{- $.Scratch.Add "pagesIndex" $pageData -}}
+      {{ end }}  
+    {{ end }}
+  {{ else }}
+    {{ range $index, $i := $item.links }}    
+      {{- $pageData := (dict "title" $i.title "href" $i.url "description"  $i.description    "content" $i.description) -}}
       {{- $.Scratch.Add "pagesIndex" $pageData -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "pagesIndex" | jsonify -}}
-
