@@ -11,31 +11,19 @@
       logo: https://raw.githubusercontent.com/RektHQ/Assets/main/images/favicon.png
       url: https://rekt.news/zh/
       description: 币圈丑闻网
-    - title: 二维码演示
-      qrcode: assets/images/webstack-hugo-qrcode.png
-      logo: assets/images/favicon.png
-      description: 二维码演示，新增二维码，手机扫一扫
-    - title: twitterscan
-      logo: assets/images/logos/uicn.png
+    - title: TwitterScan
+      logo: https://twitterscan.com/favicon.ico
       url: https://twitterscan.com/
       description: twitter上的Crypto趋势分析工具。
     - title: tokensniffer
-      logo: assets/images/logos/zcool.png
+      logo: https://tokensniffer.com/favicon.ico
       url: https://tokensniffer.com/
       description: token安全分析工具
-    - title: Statoshi.info
-      logo: assets/images/logos/producthunt.png
-      url: https://statoshi.info/?orgId=1
-      description: 实时BTC网络数据
+
     - title: GasNow
-      logo: assets/images/logos/youtube.png
+      logo: https://etherchain.org/img/favicon.png
       url: https://etherchain.org/tools/gasnow
       description: Gas 统计时间表，找到一天中最便宜的时候
-    - title: Ethplorer
-      logo: assets/images/logos/youtube.png
-      url: https://ethplorer.io/zh/
-      description: 地址余额以及合约代币余额统计工具
-    
 
 - taxonomy: 学习中心
   icon: fa-newspaper-o
@@ -49,7 +37,6 @@
       url: https://defi-learning.org/f22
       description: 全美知名高校合作的Defi课程
     
-
 - taxonomy: Defi
   icon: fa-lightbulb-o
   list: 
@@ -67,6 +54,14 @@
           logo: assets/images/logos/producthunt.png
           url: https://dexscreener.com/
           description: 全面多链 Dex K线工具
+        - title: token.unlocks
+          logo : assets/images/logos/iconfont.png
+          url: https://token.unlocks.app/
+          description: token解锁跟踪网站，包含门头沟释放的btc跟踪。
+        - title: Ethplorer
+          logo: assets/images/logos/youtube.png
+          url: https://etherchain.org/favicon.png
+          description: 地址余额以及合约代币余额统计工具
 
 
       
@@ -83,6 +78,17 @@
           logo: assets/images/logos/iconfont.png
           url: https://revoke.cash/
           description: 多链通用的授权管理工具
+    - title: 网络信息
+      links:
+        - title: ethstats
+          url: https://ethstats.net/
+          logo: https://ethstats.net/favicon.ico
+          description: 一个炫酷的ETH网络状态面板，展示出块，节点信息等等
+        - title: Statoshi.info
+          logo: https://statoshi.info/public/img/statoshi.png
+          url: https://statoshi.info/?orgId=1
+          description: 实时BTC网络数据
+
         
       
     - term: EVM高级工具
@@ -167,10 +173,30 @@
       links:
         - title: miningpoolstats
           url: https://miningpoolstats.stream/bitcoin
-          logo: assets/images/logos/designguidelines.png
+          logo: https://miningpoolstats.stream/favicon.ico
           description: pow币种算力以及矿池信息
         - title: nodes.guru
           url: https://nodes.guru/
           logo: assets/images/logos/awesome_design_systems.png
           description: 一个汇聚各种master-node教程的网站，自己跑节点赚alpha
 
+- taxonomy: 其他
+  icon: fa-pencil
+  list: 
+    - term: 全球宏观信息
+      links:
+        - title: 金十数据中心
+          url: https://rili.jin10.com/favicon.ico
+          logo: assets/images/logos/designguidelines.png
+          description: 各国经济数据汇总
+        - title: 金十宏观数据日历
+          url: https://rili.jin10.com/
+          logo: https://rili.jin10.com/favicon.ico
+          description: 全球重大宏观数据日历，对直接影响以及预测值等都有整理
+
+    - term: TestZone
+      links:
+          - title: 二维码演示
+            qrcode: assets/images/webstack-hugo-qrcode.png
+            logo: assets/images/favicon.png
+            description: 二维码演示，新增二维码，手机扫一扫
