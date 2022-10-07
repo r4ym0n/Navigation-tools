@@ -36,13 +36,17 @@
       logo: assets/images/logos/36kr.png
       url: https://defi-learning.org/f22
       description: 全美知名高校合作的Defi课程
+    - title: BTC study
+      logo: assets/images/logos/36kr.png
+      url: https://www.btcstudy.org/
+      description: 非常不错的BTC相关知识学习站点，基础知识到深度思考都有。
 
 - taxonomy: 交易信息
   icon: fa-lightbulb-o
   list: 
     - term: Cex信息
       links:
-        - title: coinglass
+        - title: Coinglass
           logo: https://www.coinglass.com/favicon.ico 
           url:   https://www.coinglass.com/
           description: 涵盖各大交易所的信息，包含公告，持仓等等。
@@ -52,7 +56,7 @@
   list: 
     - term: 分析工具
       links:
-        - title: defillama
+        - title: Defillama
           logo: assets/images/logos/producthunt.png
           url: https://www.defillama.com/
           description: 综合defi分析工具，包含项目TVL/yield/DEX成交量/稳定币占比等
@@ -60,7 +64,7 @@
           logo: assets/images/logos/producthunt.png
           url: https://www.dextools.io/
           description: Dex K线工具
-        - title: dexscreener
+        - title: DexScreener
           logo: assets/images/logos/producthunt.png
           url: https://dexscreener.com/
           description: 全面多链 Dex K线工具
@@ -94,7 +98,7 @@
           description: 多链通用的授权管理工具
     - term: 区块链网络信息
       links:
-        - title: ethstats
+        - title: Ethstats
           url: https://ethstats.net/
           logo: https://ethstats.net/favicon.ico
           description: 一个炫酷的ETH网络状态面板，展示出块，节点信息等等
@@ -104,7 +108,7 @@
           description: 实时BTC网络数据    
     - term: EVM高级工具
       links:
-        - title: ethtx
+        - title: Ethtx
           logo: assets/images/logos/iconsfeed.png
           url: https://ethtx.info/
           description: 对交易tx内容进行解码，会得到调用栈以及 Token流。
@@ -112,15 +116,14 @@
           logo: assets/images/logos/iosicongallery.png
           url: https://github.com/djrtwo/evm-opcode-gas-costs/blob/master/opcode-gas-costs_EIP-150_revision-1e18248_2017-04-12.csv
           description: EVM操作码Gas消耗表
-        - title: World Vector Logo
-          logo: assets/images/logos/worldvectorlogo.png
-          url: https://worldvectorlogo.com/
-          description: Brand logos free to download
-        - title: Instant Logo Search
-          logo: assets/images/logos/InstantLogoSearch.png
-          url: http://instantlogosearch.com/
-          description: Search & download thousands of logos instantly
-
+    - term: 投机工具（暴富中心，风险巨大）
+      links: 
+        - title: 冲土狗
+          url: https://tools.metabus.tech/
+          description: 用于冲土狗的工具，通过tx快速跟单。还有一键归集工具。
+        - title: icy.tools
+          url: https://icy.tools/
+          description: NFT市场实时监控，冲新项目使用。
 
 
 - taxonomy: Web3资讯
@@ -128,11 +131,11 @@
   list: 
     - term: 新闻
       links:
-        - title: chainfeeds
+        - title: Chainfeeds
           url: https://www.chainfeeds.xyz/
           logo: assets/images/logos/photoshop.png
           description: Crypto新闻 feed流
-        - title: blockchair
+        - title: Blockchair
           url: https://blockchair.com/zh/news/
           logo: assets/images/logos/photoshop.png
           description: Crypto新闻 feed流，内容丰富
@@ -152,11 +155,11 @@
 
     - term: 分析与评级
       links:
-        - title: cypherhunter
+        - title: Cypherhunter
           url: https://www.cypherhunter.com/zh-hans/
           logo: assets/images/logos/AdobeAfterEffectsCC.png
           description: crypto 项目背景数据库，包括项目领域，VC等。alpha 挖掘好工具
-        - title: dappradar
+        - title: Dappradar
           url: https://dappradar.com/
           logo: assets/images/logos/principle.png
           description: Dapp项目排名网站
@@ -164,7 +167,7 @@
           url: https://tokeninsight.com/
           logo: assets/images/logos/principle.png
           description: Crypto项目/交易所的评级网站，Web3版本的标普/惠誉
-        - title: cryptocompare
+        - title: Cryptocompare
           url: https://cryptocompare.com/
           logo: assets/images/logos/principle.png
           description: 项目/交易所/论坛/矿业 评级网站，广度多内容略少。
