@@ -50,6 +50,23 @@
           logo: https://www.coinglass.com/favicon.ico 
           url:   https://www.coinglass.com/
           description: 涵盖各大交易所的信息，包含公告，持仓等等。
+    - term: 代币信息
+      Links: 
+        - title: coingecko 币虎
+          logo: https://coingecko.com/favicon.ico
+          url: https://www.coingecko.com
+          description: 知名代币信息汇集站
+        - title: coingecko 币虎
+          logo: https://coinmarketcap.com//favicon.ico
+          url: https://coinmarketcap.com/
+          description: 知名代币信息汇集站2
+    - term: 巨鲸追踪
+      links: 
+        - title: whale-alert
+          logo: https://whale-alert.io/favicon.ico
+          url: https://whale-alert.io/
+          description: 实时巨鲸/巨额转帐跟踪
+
 
 - taxonomy: Defi
   icon: fa-lightbulb-o
@@ -96,6 +113,18 @@
           logo: assets/images/logos/iconfont.png
           url: https://revoke.cash/
           description: 多链通用的授权管理工具
+        - title: approved.zone
+          logo: https://approved.zone/favicon.ico
+          url: https://approved.zone/
+          description: 授权管理工具
+        - title: approved.zone
+          logo: https://approved.zone/favicon.ico
+          url: https://approved.zone/
+          description: 授权管理工具
+        - title: etherscan(eth)
+          logo: https://cn.etherscan.com/favicon.ico
+          url: https://cn.etherscan.com/tokenapprovalchecker
+          description: ETH授权管理工具  
     - term: 区块链网络信息
       links:
         - title: Ethstats
@@ -116,6 +145,9 @@
           logo: assets/images/logos/iosicongallery.png
           url: https://github.com/djrtwo/evm-opcode-gas-costs/blob/master/opcode-gas-costs_EIP-150_revision-1e18248_2017-04-12.csv
           description: EVM操作码Gas消耗表
+        - title: DEDAUB
+          url: https://library.dedaub.com/
+          description: Contract Library 一些知名合约库。
     - term: 投机工具（暴富中心，风险巨大）
       links: 
         - title: 冲土狗
@@ -124,7 +156,25 @@
         - title: icy.tools
           url: https://icy.tools/
           description: NFT市场实时监控，冲新项目使用。
+        - title: mycointool
+          url: https://mycointool.com/
+          description: 各类链上的批量工具，还有NFT mint的一键暴富功能。
 
+    - term: 水龙头
+      links: 
+        - title: Chainlink Faucets
+          url: https://faucets.chain.link 
+          description: 各链小额ETH和其他测试币
+        - title: paradigm Faucets
+          url: https://faucet.paradigm.xyz
+          description: 大额发送各链多种测试代币需要推特验证，推特要超过一个月，15个关注者，一条推文
+
+    - term: ENS
+      links: 
+        - title: ens.tools
+          url: https://ens.tools/
+          description: 各链小额ETH和其他测试币
+      
 
 - taxonomy: Web3资讯
   icon: fa-diamond
@@ -139,8 +189,6 @@
           url: https://blockchair.com/zh/news/
           logo: assets/images/logos/photoshop.png
           description: Crypto新闻 feed流，内容丰富
-        
-        
       
     - term: 求职
       links:
